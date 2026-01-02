@@ -1,4 +1,4 @@
-## TouryAi Backend 
+## Prisma Backend 
 
 A simple backend REST API for a AI App for travels built using NestJS, Prisma, PostgreSQL and Swagger. 
 
