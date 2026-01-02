@@ -11,8 +11,8 @@ async function bootstrap() {
   app.useGlobalPipes(new ValidationPipe({ whitelist: true }));
 
   const config = new DocumentBuilder()
-    .setTitle('TouryAi')
-    .setDescription('The TouryAi API description')
+    .setTitle('CineCrono')
+    .setDescription('The CineCrono API description')
     .setVersion('0.1')
     .build();
   const document = SwaggerModule.createDocument(app, config);
