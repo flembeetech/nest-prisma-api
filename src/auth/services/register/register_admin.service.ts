@@ -63,7 +63,7 @@ export class RegisterAdminService {
       this.confirmEmailService.admin({
         email: user.data.email,
         name: command.name + ' ' + command.lastname,
-        confirmLink: `${process.env.YET_HOST}/confirm-admin?token=${confirmationToken}`,
+        confirmLink: `${process.env.APP_HOST}/confirm-admin?token=${confirmationToken}`,
         message:
           'Se ha creado una nueva cuenta de usuario que requiere su confirmación.',
       });

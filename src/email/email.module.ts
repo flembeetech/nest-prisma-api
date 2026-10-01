@@ -1,7 +1,7 @@
 // email.module.ts
 import { Module } from '@nestjs/common';
 import { MailerModule } from '@nestjs-modules/mailer';
-import { HandlebarsAdapter } from '@nestjs-modules/mailer/dist/adapters/handlebars.adapter';
+import { HandlebarsAdapter } from '@nestjs-modules/mailer/adapters/handlebars.adapter';
 import { ConfirmEmailService } from './services/confirmEmail.service';
 import { ForgotPasswordEmailService } from './services/forgotPassword.service';
 import { EmailController } from './email.controller';
